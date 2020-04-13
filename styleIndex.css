@@ -1,0 +1,8 @@
+*{
+    margin: 10px;
+    padding: 5px;
+}
+.headText{
+    color: green;
+    background-color: cyan;
+}

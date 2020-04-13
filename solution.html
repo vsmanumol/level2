@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Card Generator</title>
+    <link rel="stylesheet" href="/styleSolutions.css">
+
+   
+
+</head>
+<body>
+    
+
+    <div class="container">
+        <form id="form1">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Enter Student Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="name" name="firstname" placeholder="Your name..">
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                  <label for="fclass">Enter Class</label>
+                </div>
+                <div class="col-75">
+                  <input type="text"  id="class" name="classname" placeholder="Your name..">
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                      <label for="froll">Enter roll number</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text"  id="rollNo"  name="roll" placeholder="Your name..">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="fsub1">Mark obtained in subject-1</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text"   id="sub1" name="sub1" placeholder="Your name..">/100
+                        </div>
+
+                        <div class="row">
+                            <div class="col-25">
+                              <label for="fsub2">Mark obtained in subject-2</label>
+                            </div>
+                            <div class="col-75">
+                              <input type="text"   id="sub2" name="sub2" placeholder="Your name..">/100
+                            </div>
+
+                            <div class="row">
+                                <div class="col-25">
+                                  <label for="fsub3">Mark obtained in subject-3</label>
+                                </div>
+                                <div class="col-75">
+                                  <input type="text"   id="sub3" name="sub3" placeholder="Your name..">/100
+                                </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                      <label for="grade"><h1>Generate Card</h1></label>
+                                    </div>
+                                    <div class="col-75">
+                                       
+                                        <input type="button" name="btn" value="Submit" onclick="calc()"></div>
+
+                                      
+                                    </div> 
+
+                                    <div class="row">
+                                        <div class="col-25">
+                                          <label for="grade">Total</label>
+                                        </div>
+                                        <div class="col-75">
+                                           
+                                            <input type="text" size="20" name="total"/></div>
+    
+                                          
+                                        </div> 
+                                        <div class="row">
+                                            <div class="col-25">
+                                              <label for="grade">Average</label>
+                                            </div>
+                                            <div class="col-75">
+                                               
+                                                </div>
+        
+                                                <input type="text" size="20" name="avg"/>
+                                            </div> 
+                                            <div class="row">
+                                                <div class="col-25">
+                                                  <label for="grade">Percentage</label>
+                                                </div>
+                                                <div class="col-75">
+                                                   
+                                                    </div>
+            
+                                                    <input type="text" size="20" name="per"/>
+                                                </div> 
+                                                
+                                                <input type="reset" name="Btn2" value="Reset"/>
+
+                                    </div>                                          
+
+
+
+</div>
+
+<script src="script.js"></script>
+      </body> 
+
+</html>
